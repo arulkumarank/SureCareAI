@@ -1,0 +1,14 @@
+# ─── Core Server ─────────────────────────────────────────────────
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# ─── AI / Document Processing ───────────────────────────────────
+google-generativeai==0.8.3
+pypdf>=4.0.0
+
+# ─── HTTP Client (Supabase REST calls) ──────────────────────────
+requests>=2.31.0
+httpx==0.27.0

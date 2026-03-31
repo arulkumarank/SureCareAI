@@ -1,0 +1,55 @@
+# ─── Dependencies ────────────────────────────────────────────────
+node_modules/
+
+# ─── Build Artifacts ─────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+*.local
+
+# ─── Environment & Secrets ───────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Logs ────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+.eggs/
+dist/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── OS & IDE ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Vite ────────────────────────────────────────────────────────
+*.tsbuildinfo
